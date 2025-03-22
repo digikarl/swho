@@ -1,0 +1,31 @@
+/* Language Selector Styles */
+.language-selector {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.language-selector a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 5px;
+    transition: all 0.3s ease;
+}
+
+.language-selector a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.language-selector a:hover {
+    opacity: 0.8;
+}
+
+/* Responsive styles for language selector */
+@media (max-width: 768px) {
+    .language-selector {
+        position: absolute;
+        top: 20px;
+        right: 70px;
+        margin-left: 0;
+    }
+}

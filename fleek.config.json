@@ -1,0 +1,9 @@
+{
+  "sites": [
+    {
+      "slug": "short-motherboard-billions",
+      "distDir": "swho",
+      "buildCommand": ""
+    }
+  ]
+}
